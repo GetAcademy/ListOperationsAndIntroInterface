@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ListOperationsAndIntroInterface.IntroInterface
 {
-    internal class BulletPoint
+    internal class BulletPoint : ITextElement
     {
         private string _text;
 

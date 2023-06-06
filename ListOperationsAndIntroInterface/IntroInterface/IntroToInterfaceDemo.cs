@@ -13,14 +13,31 @@
             var f1 = new BulletPoint("a");
             var f2 = new BulletPoint("b");
             var f3 = new BulletPoint("c");
-            a.Show();
-            b.Show();
-            c.Show();
-            d.Show();
-            e.Show();
-            f1.Show();
-            f2.Show();
-            f3.Show();
+            //a.Show();
+            //b.Show();
+            //c.Show();
+            //d.Show();
+            //e.Show();
+            //f1.Show();
+            //f2.Show();
+            //f3.Show();
+
+            var myTextElements = new ITextElement[] { a, b, c, d, e, f1, f2, f3};
+            foreach (ITextElement myTextElement in myTextElements)
+            {
+                myTextElement.Show();
+            }
+
+
+
+            /*
+                if (myTextElement is CenteredHeader)
+                {
+                    var centeredHeader = (CenteredHeader)myTextElement;
+                    centeredHeader.Show();
+                }
+                // (myTextElement as CenteredHeader)?.Show();
+             */
         }
     }
 }

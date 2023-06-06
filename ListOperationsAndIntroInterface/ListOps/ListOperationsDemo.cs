@@ -45,11 +45,22 @@ namespace ListOperationsAndIntroInterface.ListOps
 
             //SortDemo();
 
-            var names = GetNames();
-            foreach (var name in names)
-            {
-                Console.WriteLine(name);
-            }
+            //var names = GetNames();
+            //foreach (var name in names)
+            //{
+            //    Console.WriteLine(name);
+            //}
+
+            // array til liste
+            string[] stringArray = new string[] {"Per", "Pål", "Espen"};
+            List<string> stringList = stringArray.ToList();
+
+            // liste til array
+            List<int> intList = new List<int> { 1, 2, 3};
+            int[] intArray = intList.ToArray();
+
+            // LINQ Where returnerer IEnumerable<>
+            IEnumerable<string> stringsStartingWithP = stringArray.Where(s=>s.StartsWith("P"));
         }
 
         private List<string> GetNames()

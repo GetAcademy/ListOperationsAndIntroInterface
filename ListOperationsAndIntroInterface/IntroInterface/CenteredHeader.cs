@@ -1,6 +1,6 @@
 ﻿namespace ListOperationsAndIntroInterface.IntroInterface
 {
-    internal class CenteredHeader
+    internal class CenteredHeader : ITextElement
     {
         private string _text;
 

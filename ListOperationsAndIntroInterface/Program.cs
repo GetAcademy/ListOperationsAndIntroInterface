@@ -1,7 +1,7 @@
 ﻿using ListOperationsAndIntroInterface.IntroInterface;
 using ListOperationsAndIntroInterface.ListOps;
 
-var app = new ListOperationsDemo();
-app.Run();
+//var app = new ListOperationsDemo();
+//app.Run();
 
-//IntroToInterfaceDemo.Run();
+IntroToInterfaceDemo.Run();

@@ -1,6 +1,6 @@
 ﻿namespace ListOperationsAndIntroInterface.IntroInterface
 {
-    internal class IndentedParagraph
+    internal class IndentedParagraph : ITextElement
     {
         private string _text;
 
