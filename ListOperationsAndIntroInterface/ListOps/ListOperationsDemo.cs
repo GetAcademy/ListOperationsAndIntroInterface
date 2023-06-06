@@ -31,13 +31,85 @@ namespace ListOperationsAndIntroInterface.ListOps
 
         public void Run()
         {
-            var caruana = FindPlayerByStartOfName("Caruana");
-            caruana?.Show();
-            //if (caruana != null)
+            //var caruana = FindPlayerByStartOfName("Caruana");
+            //caruana?.Show();
+
+            //var peopleBelow30 = FindPlayersWithMaxAge(29);
+            //foreach (var chessPlayer in peopleBelow30)
             //{
-            //    caruana.Show();
+            //    chessPlayer.Show();
             //}
 
+            //var sumRating = GetSumOfRatings();
+            //Console.WriteLine(sumRating);
+
+            //SortDemo();
+
+            var names = GetNames();
+            foreach (var name in names)
+            {
+                Console.WriteLine(name);
+            }
+        }
+
+        private List<string> GetNames()
+        {
+            var names = new List<string>();
+            foreach (var chessPlayer in _chessPlayers)
+            {
+                names.Add(chessPlayer.Name);
+            }
+            return names;
+        }
+
+        private List<string> GetNames2()
+        {
+            return _chessPlayers.Select(chessPlayer => chessPlayer.Name).ToList();
+        }
+
+        private void SortDemo()
+        {
+            var chessPlayersArray = _chessPlayers.ToArray();
+            Array.Sort(chessPlayersArray); // dette endrer rekkefølgen på elementene i arrayen
+
+            var mySortedChessPlayers = _chessPlayers.OrderBy(p => p.Name).ToList();
+            var mySortedChessPlayers2 = _chessPlayers.OrderByDescending(p => p.Name).ToList();
+        }
+
+        private float GetSumOfRatings()
+        {
+            var sumRatings = 0f;
+            foreach (var chessPlayer in _chessPlayers)
+            {
+                sumRatings += chessPlayer.Classic;
+            }
+            return sumRatings;
+        }
+
+        private float GetSumOfRatings2()
+        {
+            return _chessPlayers.Sum(chessPlayer => chessPlayer.Classic);
+            //return _chessPlayers.Max(chessPlayer => chessPlayer.Classic);
+            //return _chessPlayers.Min(chessPlayer => chessPlayer.Classic);
+            //return _chessPlayers.Average(chessPlayer => chessPlayer.Classic);
+        }
+
+        private List<ChessPlayer> FindPlayersWithMaxAge(int maxAge)
+        {
+            var chessPlayers = new List<ChessPlayer>();
+            foreach (var chessPlayer in _chessPlayers)
+            {
+                if (chessPlayer.Age <= maxAge)
+                {
+                    chessPlayers.Add(chessPlayer);
+                }
+            }
+            return chessPlayers;
+        }
+
+        private List<ChessPlayer> FindPlayersWithMaxAge2(int maxAge)
+        {
+            return _chessPlayers.Where(chessPlayer => chessPlayer.Age <= maxAge).ToList();
         }
 
         private ChessPlayer FindPlayerByStartOfName(string startOfName)
