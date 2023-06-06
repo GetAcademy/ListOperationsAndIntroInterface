@@ -1,6 +1,6 @@
 ﻿using ListOperationsAndIntroInterface.IntroInterface;
 using ListOperationsAndIntroInterface.ListOps;
 
-ListOperationsDemo.Run();
+//ListOperationsDemo.Run();
 
-//IntroToInterfaceDemo.Run();
+IntroToInterfaceDemo.Run();
