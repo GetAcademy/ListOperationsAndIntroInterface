@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -19,6 +20,8 @@ namespace ListOperationsAndIntroInterface.ListOps
         public void Show()
         {
             Console.WriteLine($"{Name} ({Age}), {Country}  Ratings: {Classic} {LatestChange} {Rapid} {Blitz}");
+            Console.WriteLine(Name + " (" + Age + "), " + Country);
+            // .InnerHTML +=? `${name} (${age})`
         }
     }
 

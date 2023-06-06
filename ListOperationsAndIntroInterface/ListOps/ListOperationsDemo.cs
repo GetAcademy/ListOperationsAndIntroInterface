@@ -4,7 +4,10 @@ namespace ListOperationsAndIntroInterface.ListOps
 {
     internal class ListOperationsDemo
     {
-        /*
+        private ChessPlayer[] _chessPlayers;
+
+        /* Pause 9:42
+         *
          * 1: Litt om å hente data fra nett
          *      Tabeller fra nettsider vha Excel
          *      Konvertere til JSON
@@ -20,10 +23,35 @@ namespace ListOperationsAndIntroInterface.ListOps
          *      Sortere
          *      Lage en ny liste med verdiene til et eller flere felt
          */
-        public static void Run()
+        public ListOperationsDemo()
         {
             var json = File.ReadAllText("chessplayers.json");
-            var chessPlayers = JsonSerializer.Deserialize<ChessPlayer[]>(json);
+            _chessPlayers = JsonSerializer.Deserialize<ChessPlayer[]>(json);
+        }
+
+        public void Run()
+        {
+            var caruana = FindPlayerByStartOfName("Caruana");
+            caruana?.Show();
+            //if (caruana != null)
+            //{
+            //    caruana.Show();
+            //}
+
+        }
+
+        private ChessPlayer FindPlayerByStartOfName(string startOfName)
+        {
+            foreach (var chessPlayer in _chessPlayers)
+            {
+                if (chessPlayer.Name.StartsWith(startOfName)) return chessPlayer;
+            }
+            return null;
+        }
+
+        private ChessPlayer? FindPlayerByStartOfName2(string startOfName)
+        {
+            return _chessPlayers.FirstOrDefault(chessPlayer => chessPlayer.Name.StartsWith(startOfName));
         }
     }
 }
