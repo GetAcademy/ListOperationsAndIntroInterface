@@ -1,0 +1,189 @@
+﻿[
+  {
+    "#": 2,
+    "↑↓": "↑4",
+    "Name": "Caruana, Fabiano",
+    "Country": "United States",
+    "Classic": 2786.8,
+    "LatestChange": 13.8,
+    "Rapid": 2752.0,
+    "Blitz": 2832.0,
+    "Age": 30
+  },
+  {
+    "#": 3,
+    "↑↓": "↑2",
+    "Name": "Nakamura, Hikaru",
+    "Country": "United States",
+    "Classic": 2783.7,
+    "LatestChange": 8.7,
+    "Rapid": 2748.0,
+    "Blitz": 2874.0,
+    "Age": 35
+  },
+  {
+    "#": 4,
+    "↑↓": "↓2",
+    "Name": "Firouzja, Alireza",
+    "Country": "France",
+    "Classic": 2783.0,
+    "LatestChange": -3.0,
+    "Rapid": 2745.0,
+    "Blitz": 2896.0,
+    "Age": 19
+  },
+  {
+    "#": 5,
+    "↑↓": "↓2",
+    "Name": "Ding, Liren",
+    "Country": "China",
+    "Classic": 2780.0,
+    "LatestChange": 0.0,
+    "Rapid": 2830.0,
+    "Blitz": 2787,
+    "Age": 30
+  },
+  {
+    "#": 6,
+    "↑↓": "↓2",
+    "Name": "Nepomniachtchi, Ian",
+    "Country": "Fide",
+    "Classic": 2779.0,
+    "LatestChange": 0.0,
+    "Rapid": 2760.0,
+    "Blitz": 2781.0,
+    "Age": 32
+  },
+  {
+    "#": 12,
+    "↑↓": "↑1",
+    "Name": "Radjabov, Teimour",
+    "Country": "Azerbaijan",
+    "Classic": 2747.0,
+    "LatestChange": 0.0,
+    "Rapid": 2694.0,
+    "Blitz": 2707.0,
+    "Age": 36
+  },
+  {
+    "#": 13,
+    "↑↓": "↓1",
+    "Name": "Vachier-Lagrave, Maxime",
+    "Country": "France",
+    "Classic": 2742.8,
+    "LatestChange": -4.2,
+    "Rapid": 2767.0,
+    "Blitz": 2739.0,
+    "Age": 32
+  },
+  {
+    "#": 16,
+    "↑↓": "↑1",
+    "Name": "Gukesh D",
+    "Country": "India",
+    "Classic": 2739.5,
+    "LatestChange": 3.5,
+    "Rapid": 2629.0,
+    "Blitz": 2626.0,
+    "Age": 17
+  },
+  {
+    "#": 17,
+    "↑↓": "↓1",
+    "Name": "Dominguez Perez, Leinier",
+    "Country": "United States",
+    "Classic": 2739.0,
+    "LatestChange": 0.0,
+    "Rapid": 2706.0,
+    "Blitz": 2654.0,
+    "Age": 39
+  },
+  {
+    "#": 21,
+    "↑↓": "↑1",
+    "Name": "Le, Quang Liem",
+    "Country": "Viet Nam",
+    "Classic": 2728.0,
+    "LatestChange": 0.0,
+    "Rapid": 2661.0,
+    "Blitz": 2643.0,
+    "Age": 32
+  },
+  {
+    "#": 22,
+    "↑↓": "↓1",
+    "Name": "Abdusattorov, Nodirbek",
+    "Country": "Uzbekistan",
+    "Classic": 2727.8,
+    "LatestChange": -4.2,
+    "Rapid": 2703.0,
+    "Blitz": 2708.0,
+    "Age": 18
+  },
+  {
+    "#": 24,
+    "↑↓": "↑1",
+    "Name": "Wei, Yi",
+    "Country": "China",
+    "Classic": 2722.0,
+    "LatestChange": 0.0,
+    "Rapid": 2716.0,
+    "Blitz": 2686,
+    "Age": 24
+  },
+  {
+    "#": 25,
+    "↑↓": "↑1",
+    "Name": "Vitiugov, Nikita",
+    "Country": "Fide",
+    "Classic": 2721.0,
+    "LatestChange": 0.0,
+    "Rapid": 2622,
+    "Blitz": 2673,
+    "Age": 36
+  },
+  {
+    "#": 26,
+    "↑↓": "↓2",
+    "Name": "Wang, Hao",
+    "Country": "China",
+    "Classic": 2720.3,
+    "LatestChange": -1.7,
+    "Rapid": 2716.0,
+    "Blitz": 2624.0,
+    "Age": 33
+  },
+  {
+    "#": 31,
+    "↑↓": "↑2",
+    "Name": "Erigaisi Arjun",
+    "Country": "India",
+    "Classic": 2710.7,
+    "LatestChange": 8.7,
+    "Rapid": 2714.0,
+    "Blitz": 2719.0,
+    "Age": 19
+  },
+  {
+    "#": 33,
+    "↑↓": "↑4",
+    "Name": "Van Foreest, Jorden",
+    "Country": "Netherlands",
+    "Classic": 2706.2,
+    "LatestChange": 11.2,
+    "Rapid": 2661.0,
+    "Blitz": 2633.0,
+    "Age": 24
+  },
+  {
+    "#": 34,
+    "↑↓": "↓3",
+    "Name": "Vallejo Pons, Francisco",
+    "Country": "Spain",
+    "Classic": 2706.0,
+    "LatestChange": 0.0,
+    "Rapid": 2662.0,
+    "Blitz": 2589.0,
+    "Age": 40
+  }
+]
